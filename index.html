@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="flex-r">
+    <section id="login" class="flex-r">
+
+        <!-- left -->
+
+
+        <div class="l-login flex-c">
+            <div class="login-img">
+                <img src="./login-media/login-header-img.png" alt="">
+            </div>
+        </div>
+
+        
+        <!-- right -->
+
+
+        <div class="wrapper">
+
+            <!-- login  -->
+
+
+            <form id="login-wrapper" class="flex-c none">
+                <div class="input-box flex-c">
+                    <div>Email Address </div>
+                    <input type="email" name="Username" placeholder="Enter email address">
+                </div>
+                <div class="input-box flex-c">
+                    <div>Password</div>
+                    <input type="password" name="password" placeholder="Enter password" >
+                </div>
+                <div class=" check-item flex-r">
+                    <span class="flex-r">
+                        <input type="checkbox"> &nbsp; Remember me
+                    </span>
+                    <a href="#">Forgot Password ?</a>
+                </div>
+    
+                <button id="login-btn" class="submit-btn" type="submit">Login</button>
+    
+                <div class="last-line"> 
+                    <span>Don't have a account ?</span>
+                    <span id="register-link" style="color: red;">Register</span>
+                </div>
+            </form>
+
+            <!-- register  -->
+
+            
+            <div id="register-wrapper" class="flex-c">
+                <div class="input-box flex-c">
+                    <div>Name </div>
+                    <input type="text" name="Username" placeholder="Enter your name">
+                </div>
+                <div class="input-box flex-c">
+                    <div>Email</div>
+                    <input type="Email" name="password" placeholder="Enter your email" >
+                </div>
+                <div class="input-box flex-c">
+                    <div>Password</div>
+                    <input type="Email" name="password" placeholder="Enter password" >
+                </div>
+                <button id="register-btn" class="submit-btn">Register</button>
+    
+                <div class="last-line"> 
+                    <span>Don you have a account ?</span>
+                    <span id="login-link" style="color: red;">Login</span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+</body>
+
+</html>
